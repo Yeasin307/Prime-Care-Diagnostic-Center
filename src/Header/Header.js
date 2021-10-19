@@ -6,8 +6,8 @@ import { HashLink } from 'react-router-hash-link';
 import './Header.css';
 
 const Header = () => {
-    const { user, logOut } = useAuth();
-    console.log(user);
+    const { allContext } = useAuth();
+    const { user, logOut } = allContext;
     return (
         <>
             <Navbar bg="info bg-opacity-75" variant="dark" sticky="top" collapseOnSelect expand="lg" >
@@ -19,7 +19,7 @@ const Header = () => {
                         <Nav.Link as={HashLink} className="nav-link text-dark fw-bold" to="/home#services">Services</Nav.Link>
                         <Nav.Link as={Link} className="nav-link text-dark fw-bold" to="/about">About us</Nav.Link>
                         <Nav.Link as={Link} className="nav-link text-dark fw-bold" to="/contact">Contact us</Nav.Link>
-                        <Navbar.Text><a href="#login" style={{ textDecoration: 'none', color: "purple", fontWeight: "700", fontSize: "18px" }}>{user?.displayName}</a>
+                        <Navbar.Text><a href="#login" style={{ textDecoration: 'none', color: "purple", fontWeight: "700", fontSize: "18px" }}>{user.displayName}</a>
                         </Navbar.Text>
                         {user?.email ?
                             <Button onClick={logOut} className="mx-3 fw-bold" variant="warning">Logout</Button> :

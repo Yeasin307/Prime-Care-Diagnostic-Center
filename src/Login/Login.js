@@ -2,7 +2,8 @@ import React from 'react';
 import useAuth from '../Hooks/useAuth';
 
 const Login = () => {
-    const { user, signInUsingGoogle, isLogin, handleRegistration, handleNameChange, handleEmailChange, handlePasswordChange, toggleLogin, error, handleResetPassword } = useAuth();
+    const { allContext } = useAuth();
+    const { user, signInUsingGoogle, isLogin, handleRegistration, handleNameChange, handleEmailChange, handlePasswordChange, toggleLogin, error, handleResetPassword } = allContext;
     return (
         <div className="mx-5">
             {user?.email ? <div>

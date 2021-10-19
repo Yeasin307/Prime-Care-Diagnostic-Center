@@ -4,6 +4,7 @@ import Header from './Header/Header';
 import AuthProvider from './contexts/AuthProvider';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Login from './Login/Login';
+import Services from './Services/Services';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           <Switch>
             <Route path="/login">
               <Login></Login>
+            </Route>
+            <Route path="/home">
+              <Services></Services>
             </Route>
           </Switch>
         </Router>

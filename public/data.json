@@ -1,0 +1,176 @@
+[
+    {
+        "serviceId": 1,
+        "serviceName": "Accident and Emergency",
+        "image": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+        "details": {
+            "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+            "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
+            "doctorList": [
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                },
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                },
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "serviceId": 2,
+        "serviceName": "Accident and Emergency",
+        "image": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+        "details": {
+            "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+            "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
+            "doctorList": [
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                },
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                },
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "serviceId": 3,
+        "serviceName": "Accident and Emergency",
+        "image": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+        "details": {
+            "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+            "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
+            "doctorList": [
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                },
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                },
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "serviceId": 4,
+        "serviceName": "Accident and Emergency",
+        "image": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+        "details": {
+            "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+            "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
+            "doctorList": [
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                },
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                },
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "serviceId": 5,
+        "serviceName": "Accident and Emergency",
+        "image": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+        "details": {
+            "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+            "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
+            "doctorList": [
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                },
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                },
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "serviceId": 6,
+        "serviceName": "Accident and Emergency",
+        "image": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+        "details": {
+            "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+            "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
+            "doctorList": [
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                },
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                },
+                {
+                    "name": "Dr. Abdul Hai",
+                    "designation": "Associate Professor",
+                    "degree": "MBBS , FCPS",
+                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
+                }
+            ]
+        }
+    }
+]
