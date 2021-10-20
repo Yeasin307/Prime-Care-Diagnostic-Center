@@ -1,10 +1,10 @@
 [
     {
         "serviceId": 1,
-        "serviceName": "Accident and Emergency",
-        "image": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+        "serviceName": "Specialist Consultant",
+        "image": "https://image.freepik.com/free-photo/asian-young-main-group-hospital-professional_1291-37.jpg",
         "details": {
-            "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+            "img": "https://image.freepik.com/free-photo/asian-young-main-group-hospital-professional_1291-37.jpg",
             "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
             "doctorList": [
                 {
@@ -30,10 +30,10 @@
     },
     {
         "serviceId": 2,
-        "serviceName": "Accident and Emergency",
-        "image": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+        "serviceName": "Modern Laboratory",
+        "image": "https://image.freepik.com/free-photo/doctor-with-blood-samples-making-medical-report_23-2148958404.jpg",
         "details": {
-            "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+            "img": "https://image.freepik.com/free-photo/doctor-with-blood-samples-making-medical-report_23-2148958404.jpg",
             "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
             "doctorList": [
                 {
@@ -59,10 +59,10 @@
     },
     {
         "serviceId": 3,
-        "serviceName": "Accident and Emergency",
-        "image": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+        "serviceName": "Radiology and Imaging",
+        "image": "https://as1.ftcdn.net/v2/jpg/02/93/83/78/500_F_293837882_0c3668Jz6DLdp3Ar2qLpr12mP34rl3Sc.jpg",
         "details": {
-            "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+            "img": "https://as1.ftcdn.net/v2/jpg/02/93/83/78/500_F_293837882_0c3668Jz6DLdp3Ar2qLpr12mP34rl3Sc.jpg",
             "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
             "doctorList": [
                 {
@@ -89,9 +89,9 @@
     {
         "serviceId": 4,
         "serviceName": "Accident and Emergency",
-        "image": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+        "image": "https://image.freepik.com/free-photo/doctors-pushing-emergency-stretcher-bed-corridor_107420-63715.jpg",
         "details": {
-            "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+            "img": "https://image.freepik.com/free-photo/doctors-pushing-emergency-stretcher-bed-corridor_107420-63715.jpg",
             "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
             "doctorList": [
                 {
@@ -117,10 +117,10 @@
     },
     {
         "serviceId": 5,
-        "serviceName": "Accident and Emergency",
-        "image": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+        "serviceName": "Operation Theater",
+        "image": "https://image.freepik.com/free-photo/surgeons-performing-operation-operation-theater_107420-64881.jpg",
         "details": {
-            "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+            "img": "https://image.freepik.com/free-photo/surgeons-performing-operation-operation-theater_107420-64881.jpg",
             "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
             "doctorList": [
                 {
@@ -146,10 +146,10 @@
     },
     {
         "serviceId": 6,
-        "serviceName": "Accident and Emergency",
-        "image": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+        "serviceName": "Model Pharmacy",
+        "image": "https://image.freepik.com/free-photo/warehouse-pharmacy_1161-231.jpg",
         "details": {
-            "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg",
+            "img": "https://image.freepik.com/free-photo/warehouse-pharmacy_1161-231.jpg",
             "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
             "doctorList": [
                 {

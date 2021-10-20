@@ -5,7 +5,7 @@ import Service from '../Service/Service';
 const Services = () => {
     const { services } = useAuth();
     return (
-        <div id="services">
+        <div className="my-5">
             <h3>Services</h3>
             <div className="container">
                 <div className="row">

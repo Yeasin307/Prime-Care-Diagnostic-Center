@@ -1,18 +1,32 @@
+import { faGoogle } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { useHistory, useLocation } from 'react-router';
 import useAuth from '../Hooks/useAuth';
 
 const Login = () => {
     const { allContext } = useAuth();
-    const { user, signInUsingGoogle, isLogin, handleRegistration, handleNameChange, handleEmailChange, handlePasswordChange, toggleLogin, error, handleResetPassword } = allContext;
+    const { user, signInUsingGoogle, isLogin, handleRegistration, handleNameChange, handleEmailChange, handlePasswordChange, toggleLogin, error, handleResetPassword, setUser } = allContext;
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/home';
+    const handleGoogleSignIn = () => {
+        signInUsingGoogle()
+            .then(result => {
+                setUser(result.user);
+                history.push(redirect_uri);
+            })
+    }
+
     return (
-        <div className="mx-5">
+        <div className="mx-5 mb-4">
             {user?.email ? <div>
-                <h4 className="text-success fw-bold mt-3">Already Logged !!!</h4>
-                <h5 className="text-dark fw-bold">If you want to Logout , Please click Logout button.</h5></div> :
+                <h4 className="text-success fw-bold mt-5 pt-5">Already Logged !!!</h4>
+                <h5 className="text-dark fw-bold" style={{ marginBottom: "200px" }}>If you want to Logout , Please click Logout button.</h5></div> :
                 <div>
                     <div className=" my-3 d-flex justify-content-end align-items-center">
-                        <h4 className="text-success fw-bold">Sign with</h4>
-                        <button onClick={signInUsingGoogle} className="btn btn-warning ms-3 fw-bolder">Google</button>
+                        <h4 className="text-dark fw-bold">Sign with</h4>
+                        <button onClick={handleGoogleSignIn} className="btn btn-dark rounded-pill ms-3 fw-bolder"><FontAwesomeIcon icon={faGoogle} size="2x" className="text-warning mx-3" /></button>
                     </div>
 
                     <form onSubmit={handleRegistration}>

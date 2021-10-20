@@ -14,18 +14,14 @@ const useFirebase = () => {
     const [isLogin, setIsLogin] = useState(false);
 
     const auth = getAuth();
+    const googleProvider = new GoogleAuthProvider();
 
     const signInUsingGoogle = () => {
         setIsLoading(true);
-        const googleProvider = new GoogleAuthProvider();
-        signInWithPopup(auth, googleProvider)
-            .then(result => {
-                setUser(result.user);
-            })
+        return signInWithPopup(auth, googleProvider)
             .finally(() => setIsLoading(false));
     }
 
-    // Observe user state changing
     useEffect(() => {
         const unsubscribed = onAuthStateChanged(auth, user => {
             if (user) {
@@ -99,10 +95,11 @@ const useFirebase = () => {
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const userData = result.user;
+                const info = { ...userData, displayName: name }
                 setError('');
                 verifyEmail();
                 setUserName();
-                setUser(userData);
+                setUser(info);
             })
             .catch(error => {
                 setError(error.message);
@@ -146,7 +143,8 @@ const useFirebase = () => {
         handlePasswordChange,
         handleRegistration,
         handleResetPassword,
-        logOut
+        logOut,
+        setUser
     }
 }
 
