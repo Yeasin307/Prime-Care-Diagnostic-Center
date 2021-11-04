@@ -42,7 +42,7 @@ const useFirebase = () => {
             .finally(() => setIsLoading(false));
     }
     const toggleLogin = e => {
-        setIsLogin(e.target.checked)
+        setIsLogin(e.target.checked);
     }
 
     const handleNameChange = e => {
@@ -53,11 +53,11 @@ const useFirebase = () => {
     }
 
     const handlePasswordChange = e => {
-        setPassword(e.target.value)
+        setPassword(e.target.value);
     }
 
-    const handleRegistration = e => {
-        e.preventDefault();
+    const handleRegistration = () => {
+        // e.preventDefault();
         if (password.length < 6) {
             setError('Password Must be at least 6 characters long.')
             return;
@@ -68,22 +68,17 @@ const useFirebase = () => {
         }
 
         if (isLogin) {
-            processLogin(email, password);
+            return processLogin(email, password);
         }
         else {
-            registerNewUser(email, password);
+            return registerNewUser(email, password);
         }
 
     }
 
     const processLogin = (email, password) => {
         setIsLoading(true);
-        signInWithEmailAndPassword(auth, email, password)
-            .then(result => {
-                const userData = result.user;
-                setUser(userData);
-                setError('');
-            })
+        return signInWithEmailAndPassword(auth, email, password)
             .catch(error => {
                 setError(error.message);
             })
@@ -92,15 +87,7 @@ const useFirebase = () => {
 
     const registerNewUser = (email, password) => {
         setIsLoading(true);
-        createUserWithEmailAndPassword(auth, email, password)
-            .then(result => {
-                const userData = result.user;
-                const info = { ...userData, displayName: name }
-                setError('');
-                verifyEmail();
-                setUserName();
-                setUser(info);
-            })
+        return createUserWithEmailAndPassword(auth, email, password)
             .catch(error => {
                 setError(error.message);
             })
@@ -136,6 +123,7 @@ const useFirebase = () => {
         isLoading,
         isLogin,
         error,
+        name,
         signInUsingGoogle,
         toggleLogin,
         handleNameChange,
@@ -144,7 +132,10 @@ const useFirebase = () => {
         handleRegistration,
         handleResetPassword,
         logOut,
-        setUser
+        setUser,
+        setError,
+        verifyEmail,
+        setUserName
     }
 }
 

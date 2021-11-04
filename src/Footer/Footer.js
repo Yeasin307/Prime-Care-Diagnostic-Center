@@ -24,7 +24,7 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
-            <p className="text-center">Copyright © 2021 BD Online Academy</p>
+            <p className="text-center">Copyright © 2021 Prime care diagnostic</p>
         </div>
     );
 };
