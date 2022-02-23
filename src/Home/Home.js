@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Banner from '../Banner/Banner';
-import Services from '../Services/Services';
+import TopServices from '../TopServices/TopServices';
 
 const Home = () => {
+
+    useEffect(() => {
+        document.title = "Home";
+    }, []);
+
     return (
         <div id="home">
             <Banner></Banner>
-            <Services></Services>
+            <TopServices></TopServices>
         </div>
     );
 };

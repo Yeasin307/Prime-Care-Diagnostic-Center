@@ -1,6 +1,6 @@
 import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useHistory, useLocation } from 'react-router';
 import useAuth from '../Hooks/useAuth';
 
@@ -8,15 +8,14 @@ const Login = () => {
     const { allContext } = useAuth();
     const { user, signInUsingGoogle, isLogin, handleRegistration, handleNameChange, handleEmailChange, handlePasswordChange, toggleLogin, error, handleResetPassword, setUser, name, setError, verifyEmail, setUserName } = allContext;
 
-
-    const [control, setControl] = useState(false);
-
+    const [control, setControl] = useState(true);
     const location = useLocation();
-
     const history = useHistory();
-
     const redirect_uri = location.state?.from || '/home';
 
+    useEffect(() => {
+        document.title = "Login";
+    }, []);
 
     const handleGoogleSignIn = () => {
         signInUsingGoogle()
@@ -25,7 +24,6 @@ const Login = () => {
                 history.push(redirect_uri);
             })
     }
-
 
     const handleEmailSignIn = (e) => {
         e.preventDefault();
@@ -53,7 +51,6 @@ const Login = () => {
 
     }
 
-
     return (
         <div className="mx-5 mb-4">
             {
@@ -65,19 +62,20 @@ const Login = () => {
                     :
                     <div>
 
-                        <div className=" my-3 d-flex justify-content-end align-items-center">
-                            <h4 className="text-dark fw-bold">Sign with</h4>
-                            <button onClick={handleGoogleSignIn} className="btn btn-dark rounded-pill ms-3 fw-bolder"><FontAwesomeIcon icon={faGoogle} size="2x" className="text-warning mx-3" /></button>
+                        <div className=" my-3">
+                            <h4 className="text-primary fw-bold mb-3">Sign with</h4>
+                            <button onClick={handleGoogleSignIn} className="btn btn-dark rounded-pill ms-3 w-25 fw-bolder">
+                                <FontAwesomeIcon icon={faGoogle} className="text-warning" />oogle
+                            </button>
                         </div>
 
+                        <h5>or</h5>
 
                         <form onSubmit={handleEmailSignIn}>
                             {
-                                control ? <h3 className="text-primary fw-bold mb-3">Please Login</h3> :
-                                    <h3 className="text-primary fw-bold mb-3">Please Registration</h3>
+                                control ? <h4 className="text-primary fw-bold mb-3">Please Login</h4> :
+                                    <h4 className="text-primary fw-bold mb-3">Please Registration</h4>
                             }
-
-
 
                             {
                                 !control &&
@@ -96,7 +94,6 @@ const Login = () => {
                                 </div>
                             </div>
 
-
                             <div className="row mb-3">
                                 <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Password</label>
                                 <div className="col-sm-10">
@@ -104,24 +101,18 @@ const Login = () => {
                                 </div>
                             </div>
 
-
                             <div className="row mb-3">
                                 <div className="col-sm-3 offset-sm-2">
-                                    <div className="form-check">
-                                        <input onClick={() => setControl(!control)} onChange={toggleLogin} className="form-check-input fs-5 fw-bold" type="checkbox" id="gridCheck1" />
-                                        <label className="form-check-label fs-5 fw-bold text-success" htmlFor="gridCheck1">Already Registered ?</label>
-                                    </div>
+                                    <input onClick={() => setControl(!control)} onChange={toggleLogin} className="form-check-input fs-6 fw-bold me-3" type="checkbox" id="gridCheck1" />
+                                    <label className="form-check-label fs-6 fw-bold text-success" htmlFor="gridCheck1">Not Registered ?</label>
                                 </div>
                             </div>
 
-
                             <div className="row mb-3 text-danger">{error}</div>
-
 
                             <button type="submit" className="btn btn-primary fw-bold">
                                 {control ? 'Login' : 'Register'}
                             </button>
-
 
                             <button type="button" onClick={handleResetPassword} className="btn btn-warning fw-bold ms-3">Reset Password</button>
 
