@@ -11,7 +11,6 @@ import ContactUs from './ContactUs/ContactUs';
 import AboutUs from './AboutUs/AboutUs';
 import Details from './Details/Details';
 import Footer from './Footer/Footer';
-import Services from './Services/Services';
 
 function App() {
 
@@ -26,9 +25,6 @@ function App() {
             </Route>
             <Route path="/home">
               <Home></Home>
-            </Route>
-            <Route path="/services">
-              <Services></Services>
             </Route>
             <Route path="/about">
               <AboutUs></AboutUs>

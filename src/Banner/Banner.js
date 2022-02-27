@@ -7,7 +7,7 @@ import './Banner.css';
 
 const Banner = () => {
     return (
-        <>
+        < div id="home">
             <Carousel>
                 <Carousel.Item>
                     <img
@@ -42,7 +42,7 @@ const Banner = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-        </>
+        </div>
     );
 };
 

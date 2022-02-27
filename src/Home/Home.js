@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Banner from '../Banner/Banner';
-import TopServices from '../TopServices/TopServices';
+import Services from '../Services/Services';
 
 const Home = () => {
 
@@ -9,10 +9,10 @@ const Home = () => {
     }, []);
 
     return (
-        <div id="home">
+        <>
             <Banner></Banner>
-            <TopServices></TopServices>
-        </div>
+            <Services></Services>
+        </>
     );
 };
 

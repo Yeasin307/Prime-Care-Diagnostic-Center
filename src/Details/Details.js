@@ -1,16 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useParams } from 'react-router';
+import useAuth from '../Hooks/useAuth';
 
 const Details = () => {
     const { serviceId } = useParams();
-    const [services, setServices] = useState([]);
-    useEffect(() => {
-        fetch('/data.json')
-            .then(res => res.json())
-            .then(data => setServices(data));
-    }, [])
+    const { services } = useAuth();
 
-    const service = services?.find(serve => serve?.serviceId == serviceId)
+    // eslint-disable-next-line
+    const service = services?.find(service => service?.serviceId == serviceId);
 
     return (
         <div>
