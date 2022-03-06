@@ -9,13 +9,14 @@ const Footer = () => {
             <div className="row">
                 <div className="col-12 col-lg-6 mt-3">
                     <h4 className="text-start ps-5 ms-5">Our Location</h4>
-                    <h6 className="text-start ps-5 ms-5">House: A/24 , Maijdi Court</h6>
+                    <h6 className="text-start ps-5 ms-5">House: A/24 , Hospital Road , Maijdi Court</h6>
                     <h6 className="text-start ps-5 ms-5">Noakhali , Bangladesh</h6>
                     <h6 className="text-start ps-5 ms-5">Contact Number: 01700000000</h6>
+                    <h6 className="text-start ps-5 ms-5">Email: primecarehospital.bd@gmail.com</h6>
 
                 </div>
-                <div className="col-12 col-lg-6 d-flex justify-content-center mt-3">
-                    <h3>Join with us : </h3>
+                <div className="col-12 col-lg-6 mt-3">
+                    <h3>Join with us</h3>
                     <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faFacebook} size="2x" className="text-primary mx-3" />
                     </a>
@@ -24,7 +25,7 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
-            <p className="text-center">Copyright © 2021 Prime care diagnostic</p>
+            <p className="text-center mt-3">Copyright © 2021 Prime care Hospital Ltd.</p>
         </div>
     );
 };

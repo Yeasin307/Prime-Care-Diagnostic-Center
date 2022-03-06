@@ -2,11 +2,12 @@ import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import { useHistory, useLocation } from 'react-router';
+import { Link } from 'react-router-dom';
 import useAuth from '../Hooks/useAuth';
 
 const Login = () => {
     const { allContext } = useAuth();
-    const { user, signInUsingGoogle, isLogin, handleRegistration, handleNameChange, handleEmailChange, handlePasswordChange, toggleLogin, error, handleResetPassword, setUser, name, setError, verifyEmail, setUserName } = allContext;
+    const { user, signInUsingGoogle, isLogin, handleRegistration, handleNameChange, handleEmailChange, handlePasswordChange, toggleLogin, error, setUser, name, setError, verifyEmail, setUserName } = allContext;
 
     const [control, setControl] = useState(true);
     const location = useLocation();
@@ -39,7 +40,7 @@ const Login = () => {
         else {
             handleRegistration()
                 .then(result => {
-                    const userData = result.user;
+                    const userData = result?.user;
                     const info = { ...userData, displayName: name }
                     setError('');
                     verifyEmail();
@@ -48,7 +49,6 @@ const Login = () => {
                     history.push(redirect_uri);
                 })
         }
-
     }
 
     return (
@@ -114,12 +114,14 @@ const Login = () => {
                                 {control ? 'Login' : 'Register'}
                             </button>
 
-                            <button type="button" onClick={handleResetPassword} className="btn btn-warning fw-bold ms-3">Reset Password</button>
+                            <Link to="/passwordreset">
+                                <button className="btn btn-warning fw-bold ms-3">Reset Password</button>
+                            </Link>
 
                         </form>
                     </div>
             }
-        </div>
+        </div >
     );
 };
 

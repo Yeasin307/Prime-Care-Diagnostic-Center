@@ -3,174 +3,149 @@
         "serviceId": 1,
         "serviceName": "Specialist Consultant",
         "image": "https://image.freepik.com/free-photo/asian-young-main-group-hospital-professional_1291-37.jpg",
-        "details": {
-            "img": "https://image.freepik.com/free-photo/asian-young-main-group-hospital-professional_1291-37.jpg",
-            "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
-            "doctorList": [
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                },
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                },
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                }
-            ]
-        }
+        "description": [
+            "1. Medicine",
+            "2. Neuromedicine",
+            "3. Orthopedics",
+            "4. Gastrology",
+            "5. Urology and Nephrology",
+            "6. Cardiology",
+            "7. Pediatric Medicine",
+            "8. Obstetrics and Gynecology"
+        ],
+        "doctorList": [
+            {
+                "name": "Dr. Abdul Hai",
+                "designation": "Professor",
+                "institute": "Dhaka Medical College and Hospital",
+                "degree": "MBBS , FCPS ( Internal Medicine )",
+                "img": "https://img.freepik.com/free-photo/doctor-standing-with-folder-stethoscope_1291-16.jpg?1&t=st=1646544580~exp=1646545180~hmac=2560259d09366220d36ef4962a839db4ca3c8d7f94db7d584ec669ce53a5d2ee&w=900"
+            },
+            {
+                "name": "Dr. A.S.M Morshed",
+                "designation": "Professor",
+                "institute": "Mitford Medical College and Hospital",
+                "degree": "MBBS , MD ( Neuromedicine )",
+                "img": "https://img.freepik.com/free-photo/covid-19-coronavirus-outbreak-healthcare-workers-pandemic-concept-middle-aged-doctor-white-coat-cross-arms-chest-ready-help-patients-prescribe-medication-smiling-cheerful_1258-61179.jpg?w=900"
+            },
+            {
+                "name": "Prof. Dr. Md. Alamgir Hossain",
+                "designation": "Professor",
+                "institute": "Bangabandhu Sheikh Mujib Medical University",
+                "degree": "MBBS , MD ( Gastrology )",
+                "img": "https://img.freepik.com/free-photo/portrait-smiling-male-doctor_171337-1532.jpg?t=st=1646544624~exp=1646545224~hmac=0afb28d25a7236f0ee29f775def8af21c28491ba31eff6f2348cdfa2a747a1cd&w=900"
+            },
+            {
+                "name": "Dr. Bidyut Kumar Saha",
+                "designation": "Professor",
+                "institute": "Bangabandhu Sheikh Mujib Medical University",
+                "degree": "MBBS , MD ( Cardiology )",
+                "img": "https://img.freepik.com/free-photo/medium-shot-doctor-with-crossed-arms_23-2148868176.jpg?t=st=1646544591~exp=1646545191~hmac=8712a67ab721433bdda5d242c65ef0ca105d2b5597d513cba351587b6df87831&w=900"
+            },
+            {
+                "name": "Dr. Abdullah Al Jamil",
+                "designation": "Professor",
+                "institute": "Dhaka Medical College and Hospital",
+                "degree": "MBBS , MD (Pediatric Medicine)",
+                "img": "https://img.freepik.com/free-photo/hospital-healthcare-workers-covid-19-treatment-concept-young-doctor-scrubs-making-daily-errands-clinic-listening-patient-symptoms-look-camera-professional-physician-curing-diseases_1258-57233.jpg?t=st=1646544586~exp=1646545186~hmac=1729c398f6ac4f5cc87642ed54d28812d796e438738aae182e96d84c86faca9e&w=900"
+            },
+            {
+                "name": "Dr. Mohammad Mizanur Rahman",
+                "designation": "Professor",
+                "institute": "Bangabandhu Sheikh Mujib Medical University",
+                "degree": "MBBS , MD ( Cardiology )",
+                "img": "https://img.freepik.com/free-photo/portrait-smiling-young-man-doctor-with-stethoscope-standing-with-arms-folded_171337-15538.jpg?t=st=1646544594~exp=1646545194~hmac=7cb5052b2a191655b806e260837c8b9bbabfe000ff1528445af7f54570ee17f3&w=900"
+            },
+            {
+                "name": "Dr. Somayra Nasreen",
+                "designation": "Associate Professor",
+                "institute": "Dhaka Medical College and Hospital",
+                "degree": "MBBS , FCPS ( Obstetrics and Gynecology )",
+                "img": "https://img.freepik.com/free-photo/portrait-doctor_144627-39390.jpg?t=st=1646544605~exp=1646545205~hmac=d71bdcc047a16c3feace563790fa9fbf346b9b56b3ec01eea1d13196e61f753d&w=900"
+            },
+            {
+                "name": "Dr. Hasiba Hasan Joya",
+                "designation": "Associate Professor",
+                "institute": "Bangabandhu Sheikh Mujib Medical University",
+                "degree": "MBBS , MD (Nephrology)",
+                "img": "https://img.freepik.com/free-photo/young-lady-looking-pointing-copy-space_171337-5771.jpg?t=st=1646544614~exp=1646545214~hmac=82f866959219cb37b41f6523012aca3acf6c11683713e778b818d33cab6aee48&w=900"
+            }
+        ]
     },
     {
         "serviceId": 2,
         "serviceName": "Modern Laboratory",
         "image": "https://image.freepik.com/free-photo/doctor-with-blood-samples-making-medical-report_23-2148958404.jpg",
-        "details": {
-            "img": "https://image.freepik.com/free-photo/doctor-with-blood-samples-making-medical-report_23-2148958404.jpg",
-            "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
-            "doctorList": [
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                },
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                },
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                }
-            ]
-        }
+        "description": [
+            "1. Pathology Lab",
+            "2. Hematology Lab",
+            "3. Microbiology Lab",
+            "4. Molecular Biology Lab",
+            "5. Immunology and Serology Lab",
+            "6. Biochemistry Lab",
+            "7. Histopathology Lab",
+            "8. Blood Bank"
+        ]
     },
     {
         "serviceId": 3,
         "serviceName": "Radiology and Imaging",
         "image": "https://as1.ftcdn.net/v2/jpg/02/93/83/78/500_F_293837882_0c3668Jz6DLdp3Ar2qLpr12mP34rl3Sc.jpg",
-        "details": {
-            "img": "https://as1.ftcdn.net/v2/jpg/02/93/83/78/500_F_293837882_0c3668Jz6DLdp3Ar2qLpr12mP34rl3Sc.jpg",
-            "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
-            "doctorList": [
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                },
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                },
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                }
-            ]
-        }
+        "description": [
+            "1. Magnetic Resonance Imaging (MRI)",
+            "2. Computed Tomography (CT)",
+            "3. True Digital X-Ray DR Systems",
+            "4. Full Field Digital Memmography",
+            "5. Ultrasound (USG)",
+            "6. Colour Doppler (CD)",
+            "7. Dexa Scan"
+        ]
     },
     {
         "serviceId": 4,
         "serviceName": "Accident and Emergency",
         "image": "https://image.freepik.com/free-photo/doctors-pushing-emergency-stretcher-bed-corridor_107420-63715.jpg",
-        "details": {
-            "img": "https://image.freepik.com/free-photo/doctors-pushing-emergency-stretcher-bed-corridor_107420-63715.jpg",
-            "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
-            "doctorList": [
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                },
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                },
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                }
-            ]
-        }
+        "description": [
+            "1. 24 hour services to all types of emergency patients.",
+            "2. Mini Operation Theater with Ventilation Machine for Life Support if needed.",
+            "3. All time availability of Consultant & Specialist doctors.",
+            "4. Any minor surgery can be done in the Emergency Operation Theater.",
+            "5. 4-5 well trained Nurses in each shift.",
+            "6. Facility of direct shifting of multiple trauma patients to Trauma Operation Theater via Lift situated within Emergency.",
+            "7. Cardiac Ambulance – accompanied by Critical Care Specialist, Nurse and PCA.",
+            "8. Non-Cardiac Ambulance – accompanied by Nurse and PCA."
+        ]
     },
     {
         "serviceId": 5,
         "serviceName": "Operation Theater",
         "image": "https://image.freepik.com/free-photo/surgeons-performing-operation-operation-theater_107420-64881.jpg",
-        "details": {
-            "img": "https://image.freepik.com/free-photo/surgeons-performing-operation-operation-theater_107420-64881.jpg",
-            "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
-            "doctorList": [
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                },
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                },
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                }
-            ]
-        }
+        "description": [
+            "1. Emergency surgery including poly trauma",
+            "2. Inguinal, incisional and ventral hernia repairs",
+            "3. Surgeries of the liver and gallbladder",
+            "4. Oesophageal resections and reconstruction",
+            "5. Gastric (stomach) surgery",
+            "6. Surgeries on the small and large intestine",
+            "7. Pancreatic surgery",
+            "8. Thyroid surgeries",
+            "9. Diagnostic Laparoscopy",
+            "10. Cholecystectomy"
+        ]
     },
     {
         "serviceId": 6,
         "serviceName": "Model Pharmacy",
         "image": "https://image.freepik.com/free-photo/warehouse-pharmacy_1161-231.jpg",
-        "details": {
-            "img": "https://image.freepik.com/free-photo/warehouse-pharmacy_1161-231.jpg",
-            "description": "Psychiatry Department comes together with empathetic care and medical expertise to provide comprehensive treatment for psychiatric patients. The Department provides consultation services through skilled and experienced experts, who carefully evaluate every patient’s complaint. Upon diagnosis our Consultant discusses available options and recommends the most effective treatment.",
-            "doctorList": [
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                },
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                },
-                {
-                    "name": "Dr. Abdul Hai",
-                    "designation": "Associate Professor",
-                    "degree": "MBBS , FCPS",
-                    "img": "https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h1-img-1.jpg"
-                }
-            ]
-        }
+        "description": [
+            "1. 24 hour services to all types of emergency patients.",
+            "2. Free delivery.",
+            "3. Competitive prescription pricing.",
+            "4. Prescription Services.",
+            "5. Expedient prescription fill time.",
+            "6. Personal service.",
+            "7. Acceptance of most insurance policies.",
+            "8. Vaccination Services."
+        ]
     }
 ]

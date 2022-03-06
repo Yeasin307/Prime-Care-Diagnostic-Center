@@ -11,6 +11,7 @@ import ContactUs from './ContactUs/ContactUs';
 import AboutUs from './AboutUs/AboutUs';
 import Details from './Details/Details';
 import Footer from './Footer/Footer';
+import PasswordReset from './Login/PasswordReset';
 
 function App() {
 
@@ -37,6 +38,9 @@ function App() {
             </PrivateRoute>
             <Route path="/login">
               <Login></Login>
+            </Route>
+            <Route path="/passwordreset">
+              <PasswordReset></PasswordReset>
             </Route>
             <Route path="*">
               <NotFound></NotFound>

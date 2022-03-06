@@ -11,7 +11,7 @@ const useFirebase = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [isLogin, setIsLogin] = useState(false);
+    const [isLogin, setIsLogin] = useState(true);
 
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
@@ -41,8 +41,9 @@ const useFirebase = () => {
             .then(() => { })
             .finally(() => setIsLoading(false));
     }
+
     const toggleLogin = e => {
-        setIsLogin(e.target.checked);
+        setIsLogin(!isLogin);
     }
 
     const handleNameChange = e => {
