@@ -16,7 +16,7 @@ const Header = () => {
 
                 <Container>
 
-                    <Navbar.Brand className=" text-dark fw-bold fs-3">Prime care Hospital Ltd.</Navbar.Brand>
+                    <Navbar.Brand className=" text-dark fw-bold fs-3">Prime care Hospital</Navbar.Brand>
 
                     <Navbar.Toggle />
 
